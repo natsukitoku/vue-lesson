@@ -1,7 +1,10 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import Example from "./Example.vue";
+import Example2 from "./Example2.vue";
 const app = createApp(App);
 const exampleApp = createApp(Example);
+const exampleApp2 = createApp(Example2);
 app.mount('#app');
 exampleApp.mount('#example');
+exampleApp2.mount('#example2');
